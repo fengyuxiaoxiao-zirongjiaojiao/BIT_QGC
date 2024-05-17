@@ -1,0 +1,59 @@
+﻿{
+    "version":      1,
+    "fileType":  "FactMetaData",
+    "QGC.MetaData.Facts":
+[
+{
+    "name":                 "ntripServerConnectEnabled",
+    "shortDesc":     "Connect to NTRIP server",
+    "longDesc":      "Connect to NTRIP server using specified address/port",
+    "type":                 "bool",
+    "default":         false,
+    "qgcRebootRequired":    false
+},
+{
+    "name":                 "ntripServerHostAddress",
+    "shortDesc":     "Host address",
+    "type":                 "string",
+    "default":         "127.0.0.1",
+    "qgcRebootRequired":    false
+},
+{
+    "name":                 "ntripServerPort",
+    "shortDesc":     "Server port",
+    "type":                 "string",
+    "default":         2101,
+    "qgcRebootRequired":    false
+},
+{
+    "name":                 "ntripUsername",
+    "shortDesc":     "Username",
+    "type":                 "string",
+    "default":         "",
+    "qgcRebootRequired":    false
+},
+{
+    "name":                 "ntripPassword",
+    "shortDesc":     "Password",
+    "type":                 "string",
+    "default":         "",
+    "qgcRebootRequired":    false
+},
+{
+    "name":                 "ntripMountpoint",
+    "shortDesc":     "Mount Point",
+    "longDesc":      "NTRIP Mount Point. Leave blank for RTCM over TCP",
+    "type":                 "string",
+    "default":         "",
+    "qgcRebootRequired":    false
+},
+{
+    "name":                 "ntripWhitelist",
+    "shortDesc":     "RTCM Message Whitelist",
+    "longDesc":      "RTCM Messages to send over mavlink. Leave blank for all messages",
+    "type":                 "string",
+    "default":         "",
+    "qgcRebootRequired":    false
+}
+]
+}

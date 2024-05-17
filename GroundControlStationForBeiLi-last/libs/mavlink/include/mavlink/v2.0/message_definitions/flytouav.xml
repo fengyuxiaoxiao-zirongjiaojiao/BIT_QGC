@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<mavlink>
+<messages>
+	    <!-- about flight controler communication witch server or ground station-->
+    <message id="228" name="BIND_FLYER_PLANE">
+        <description>bind flyer witch plane(send to server)</description>
+        <field type="char[64]" name="token">token.</field>
+        <field type="char[50]" name="uav_number">uav number.</field>
+    </message>
+    <message id="229" name="BIND_FLYER_PLANE_ACK">
+        <description>server respond that bind flyer witch plane (receive from server)</description>
+        <field type="int32_t" name="ack">ack(zero is succeeded, otherwise is falied).</field>
+    </message>
+</messages>
+</mavlink>

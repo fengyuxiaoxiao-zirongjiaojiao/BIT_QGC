@@ -1,0 +1,29 @@
+﻿{
+    "version":      1,
+    "fileType":  "FactMetaData",
+    "QGC.MetaData.Facts":
+[
+{
+    "name":                 "rosTopicServerConnectEnabled",
+    "shortDesc":     "Connect to RosTopic server",
+    "longDesc":      "Connect to RosTopic server using specified address/port",
+    "type":                 "bool",
+    "default":         false,
+    "qgcRebootRequired":    false
+},
+{
+    "name":                 "rosTopicServerHostAddress",
+    "shortDesc":     "Host address split by ,",
+    "type":                 "string",
+    "default":         "",
+    "qgcRebootRequired":    false
+},
+{
+    "name":                 "rosTopicServerPort",
+    "shortDesc":     "Server port",
+    "type":                 "int32",
+    "default":         10801,
+    "qgcRebootRequired":    false
+}
+]
+}

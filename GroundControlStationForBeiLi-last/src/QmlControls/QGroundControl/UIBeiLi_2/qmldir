@@ -1,0 +1,9 @@
+﻿Module QGroundControl.UIBeiLi_2
+
+StartWindow                                                     1.0		StartWindow.qml
+BeiLi_2_View                                                    1.0		BeiLi_2_View.qml
+BeiLi_2_ToolBtn                                                 1.0             BeiLi_2_ToolBtn.qml
+BeiLi_2_LinkConfigView                                          1.0             BeiLi_2_LinkConfigView.qml
+BeiLi_2_MultiControlView                                        1.0             BeiLi_2_MultiControlView.qml
+BeiLi_2_QuickSetupView                                          1.0             BeiLi_2_QuickSetupView.qml
+BeiLi_2_MissionPlanView                                         1.0             BeiLi_2_MissionPlanView.qml

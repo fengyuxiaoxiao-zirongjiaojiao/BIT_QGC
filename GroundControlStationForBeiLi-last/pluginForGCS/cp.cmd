@@ -1,0 +1,1 @@
+copy .\plugins\*.dll  ..\GroundControlStationForBeiLi\build\Desktop_Qt_5_14_2_MSVC2017_64bit\staging\plugins

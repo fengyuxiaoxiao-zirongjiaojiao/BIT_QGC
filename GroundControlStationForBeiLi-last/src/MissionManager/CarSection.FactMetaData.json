@@ -1,0 +1,13 @@
+{
+    "version":      1,
+    "fileType":  "FactMetaData",
+    "QGC.MetaData.Facts":
+[
+{
+    "name":             "CarAndPlane",
+    "shortDesc": "Set the current vehicle mode to car or plane, defaut is plane",
+    "type":             "bool",
+    "default":     false
+}
+]
+}

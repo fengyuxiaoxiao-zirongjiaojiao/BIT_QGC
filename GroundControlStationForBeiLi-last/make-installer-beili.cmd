@@ -1,0 +1,2 @@
+"C:/Program Files (x86)/NSIS/makensis.exe" /DDRIVER_MSI=deploy\driver.msi /DINSTALLER_ICON="windows/WindowsQGC.ico" /DHEADER_BITMAP="windows\installheader.bmp" /DAPPNAME="GroundControlStation" /DEXENAME="GroundControlStation" /DORGNAME="BeiLi.edu" /DDESTDIR=build/Desktop_Qt_5_14_2_MSVC2017_64bit/staging /NOCD "/XOutFile build/GroundControlStation-installer-V1.37-multiView-fixed-Joystick.exe" deploy/qgroundcontrol_installer.nsi
+pause

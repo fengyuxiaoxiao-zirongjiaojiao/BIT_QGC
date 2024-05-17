@@ -1,0 +1,44 @@
+﻿{
+    "version":  1,
+    "fileType": "FactMetaData",
+    "QGC.MetaData.Facts":
+[
+{
+    "name":         "serverIp",
+    "shortDesc":    "server ip",
+    "type":         "string",
+    "default":      "192.168.7.1"
+},
+{
+    "name":         "serverPort",
+    "shortDesc":    "port",
+    "type":         "string",
+    "default":      "20601"
+},
+{
+    "name":         "serverProtocol",
+    "shortDesc":    "protocol",
+    "type":         "string",
+    "default":      "http"
+},
+{
+    "name":         "groundControlStationPort",
+    "shortDesc":    "ground control station port",
+    "type":         "string",
+    "default":      "20800"
+},
+{
+    "name":         "controlCenterPort",
+    "shortDesc":    "Control center port",
+    "type":         "string",
+    "default":      "20701"
+}
+,
+{
+    "name":         "map3dAddr",
+    "shortDesc":    "cesium addr",
+    "type":         "string",
+    "default":      "http://192.168.7.1:20710/"
+}
+]
+}
